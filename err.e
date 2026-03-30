@@ -1,0 +1,17 @@
+/home/mdavood/anaconda3/envs/scip/lib/python3.10/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/home/mdavood/anaconda3/envs/scip/lib/python3.10/site-packages/transformers/utils/generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+sklearn-contrib-lightning not available. Using sklearn.svm.LinearSVC/LinearSVR instead. For faster training with large datasets, install sklearn-contrib-lightning in old models environment.
+/home/mdavood/anaconda3/envs/scip/lib/python3.10/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/mdavood/anaconda3/envs/scip/lib/python3.10/site-packages/transformers/modeling_utils.py:484: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(checkpoint_file, map_location=map_location)
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO:eval_datasets:Loading test metadata from ('allenai/scirepeval', 'paper_reviewer_matching')
+INFO:eval_datasets:Loaded 73364 documents
+INFO:__main__:Loading test dataset from ('allenai/scirepeval_test', 'paper_reviewer_matching')
+INFO:__main__:Loaded 1729 test query-candidate pairs for hard and soft tests
+INFO:__main__:Loading reviewer metadata...
+INFO:__main__:Loaded 668 reviewer metadata
+  0%|          | 0/107 [00:00<?, ?it/s]  3%|▎         | 3/107 [00:00<00:03, 26.58it/s]  7%|▋         | 7/107 [00:00<00:03, 32.85it/s] 10%|█         | 11/107 [00:00<00:02, 32.88it/s] 14%|█▍        | 15/107 [00:00<00:02, 33.20it/s] 18%|█▊        | 19/107 [00:00<00:02, 34.43it/s] 21%|██▏       | 23/107 [00:00<00:02, 35.16it/s] 25%|██▌       | 27/107 [00:00<00:02, 35.40it/s] 29%|██▉       | 31/107 [00:00<00:02, 35.26it/s] 34%|███▎      | 36/107 [00:01<00:01, 38.85it/s] 40%|████      | 43/107 [00:01<00:01, 47.11it/s] 50%|████▉     | 53/107 [00:01<00:00, 61.95it/s] 56%|█████▌    | 60/107 [00:01<00:00, 63.43it/s] 64%|██████▎   | 68/107 [00:01<00:00, 65.82it/s] 71%|███████   | 76/107 [00:01<00:00, 67.27it/s] 79%|███████▉  | 85/107 [00:01<00:00, 73.22it/s] 87%|████████▋ | 93/107 [00:01<00:00, 74.26it/s] 95%|█████████▌| 102/107 [00:01<00:00, 77.58it/s]100%|██████████| 107/107 [00:01<00:00, 55.16it/s]
